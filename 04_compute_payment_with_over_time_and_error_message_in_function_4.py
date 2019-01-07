@@ -23,5 +23,4 @@ if pay:
     print('Pay: {:.2f}'.format(pay))
 
 
-
     
