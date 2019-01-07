@@ -1,3 +1,4 @@
+import sys
 try:
     hours =int(input('Enter Hours: '))
     rate = float(input('Enter Rate: '))
@@ -13,3 +14,4 @@ try:
     print('Pay: {:.2f}'.format(pay))
 except ValueError:
     print("Error, please enter numeric input")
+    quit()
